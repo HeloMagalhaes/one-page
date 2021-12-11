@@ -1,0 +1,168 @@
+body {
+    margin: 0 auto;
+}
+
+.home {
+    height: 60vh;
+    background-color: #D7D4FF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 150px;
+}
+
+.info {
+    width: 374px;
+}
+
+.info h1 {
+    font-size: 3.2rem;
+    color: #2B2B2B;
+}
+
+.info p {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.8rem;
+    margin-top: 17.5px;
+    color: #555555;
+}
+
+.btn {
+    font-family: 'Lato', sans-serif;
+    font-size: 2.0rem;
+    color: white;
+    display: inline-block;
+    background-color: #6c63ff;
+    padding: 10px 50px;
+    border-radius: 5px;
+    margin-top: 32px;
+}
+
+img {
+    width: 350px;
+}
+
+
+.cards-space {
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 340px;
+    height: 423px;
+    margin-bottom: 6.8rem;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    font-weight: 700;
+    font-size: 2.4rem;
+    margin: 24px 30px;
+}
+
+.card p {
+    font-family: 'Lato';
+    width: 282px;
+    font-size: 1.3rem;
+    line-height: 3.0rem;
+    margin: 0 0 31px 24px;
+}
+
+.card-red {
+    background-color: #FF6363;
+}
+
+.card-blue {
+    background: #63ECFF;
+}
+
+.card-pink {
+    background: #F363FF;
+}
+
+.card-green {
+    background: #63FF73;
+}
+
+.card-yellow {
+    background: #FFDD63;
+}
+
+.card-royal-blue {
+    background: #6663FF;
+}
+
+.card-red, .card-blue, .card-pink, .card-green, .card-yellow, .card-royal-blue {
+    height: 50%;
+}
+
+.footer {
+    background-color: #D7D4FF;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer h2 {
+    font-weight: 400;
+    font-size: 3.2rem;
+    margin: 60px;
+}
+
+.footer form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.footer form input {
+    width: 470px;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 15px;
+    align-self: center;
+}
+
+.footer form input[placeholder] {
+    padding: 22px 15px;
+    font-weight: 'Lato';
+}
+
+.footer form textarea {
+    width: 470px;
+    border: none;
+    resize: none;
+    border-radius: 6px;
+    align-self: center;
+}
+
+.footer form textarea[placeholder] {
+    padding: 22px 15px;
+    font-family: 'Lato';
+}
+
+.form-btn {
+    margin-top: 43px;
+    padding: 13px;
+    color: white;
+    background-color: #6C63FF;
+}
+
+.footer h3 {
+    color: #6663FF;
+    margin: 50px;
+    padding: 20px 0px;
+    text-align: center;
+}
