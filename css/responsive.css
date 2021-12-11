@@ -1,5 +1,5 @@
 @media(max-width:720px) {
-    .home {
+    .header {
         height: 100vh;
     }
 
@@ -14,7 +14,7 @@
         justify-content: space-around;
     }
 
-    .home {
+    .header {
         margin-bottom: 75px;
     }
 }

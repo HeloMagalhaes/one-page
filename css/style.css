@@ -2,7 +2,7 @@ body {
     margin: 0 auto;
 }
 
-.home {
+.header {
     height: 60vh;
     background-color: #D7D4FF;
     display: flex;
