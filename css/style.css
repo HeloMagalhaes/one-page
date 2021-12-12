@@ -140,6 +140,11 @@ img {
     font-weight: 'Lato';
 }
 
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+
+}
+
 .footer form textarea {
     width: 470px;
     border: none;
